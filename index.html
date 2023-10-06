@@ -21,13 +21,13 @@
       <a class="header__logo">
         <img
           class="header__logo-image"
-          src="/images/logo-black.svg"
+          src="../images/logo-black.svg"
           alt="Логотип"
         >
       </a>
       <address class="adress header__adress">
-        <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="phone__mail" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="phone__mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="adress__street">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
@@ -87,7 +87,6 @@
       </section>
       <section class="about">
         <section class="about__column">
-          <section class="about__logo">
             <div class="logo-padding">
               <img 
               class="about__logo-image"
@@ -95,21 +94,20 @@
               alt="Круглый Логотип"
               >
             </div>
-          </section>
-          <section class="about__text-whole">
-            <h4 class="about__title">Об аукционе</h4>
-            <section class="about__text">
-              <p class="about__text-first">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-              <p class="about__text-second">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
-          </section>
-        </section>
+          <div class="about__text-whole">
+            <h2 class="about__title">Об аукционе</h2>
+            <div class="about__text">
+              <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+              <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
+          </div>
+        </div>
       </section>
       </section>
     </main>
     <footer class="footer">
       <address class="adress footer__adress">
-        <a class="phone" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="phone__mail" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="phone__mail" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="adress__street">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
@@ -120,7 +118,7 @@
         </ul>
       </nav>
       <ul class="footer__social-list">
-        <li class="footer__social-list-item YT">
+        <li class="footer__social-list-item">
           <a href="#0" class="footer__social-link">
             <img 
               class="footer__social-icon"
@@ -136,7 +134,7 @@
               alt="Лого ВКонтакте">
           </a>
         </li>
-        <li class="footer__social-list-item PNT">
+        <li class="footer__social-list-item">
           <a href="#0" class="footer__social-link">
             <img 
             class="footer__social-icon"
